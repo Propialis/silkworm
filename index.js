@@ -31,7 +31,7 @@ export default e => {
   const angularSpeed = 0.02;
   (async () => {
     silkWorm = await metaversefile.createAppAsync({
-      start_url: `${baseUrl}smolting.glb`,
+      start_url: `${baseUrl}smolting2.glb`,
     });
     silkWorm.quaternion.copy(y180Quaternion);
     silkWorm.frustumCulled = false;
